@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9841646-22a2-4b76-a5ce-e99f6628ece2" name="Default Changelist" comment="" />
+    <list default="true" id="c9841646-22a2-4b76-a5ce-e99f6628ece2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonLessonsFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonLessonsFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Video2Images.py" beforeDir="false" afterPath="$PROJECT_DIR$/Video2Images.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WqfDsuaacVzjOjP8qTXjJ26TKd" />
   <component name="PropertiesComponent">
@@ -43,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PythonLessonsFile">
+  <component name="RunManager" selected="Python.Video2Images">
     <configuration name="BasicCalibration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Senior_Project_CamraStitching" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,8 +179,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PythonLessonsFile" />
         <item itemvalue="Python.Video2Images" />
+        <item itemvalue="Python.PythonLessonsFile" />
         <item itemvalue="Python.LiveStarbuckOleMiss" />
         <item itemvalue="Python.BasicCalibration" />
         <item itemvalue="Python.FunctionForStitching" />
@@ -192,5 +199,16 @@
       <updated>1579881928356</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

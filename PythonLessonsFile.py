@@ -92,19 +92,19 @@ def Stitching(image1Name,image2Name,WindowName,PicNames):
 #imageNames=["Book.jpg","Book2.jpg","Book3.jpg"]
 #imageNames=["Face1.jpg","Face2.jpg"]
 # imageNames=['board1.jpg','board2.jpg']
-imageNames=['5test1_291.png','7test2_291.png']
+
+#replace with names of files want stitched
+imageNames=['ACM1.jpg','ACM2.jpg']
+#good for desinating what number the image is in the order
 WindowNames=["1","2","3"]
+#rplace with what you want the image to be called
 PicNames=['ACM','Book','Face','Board']
 
+Stitching(imageNames[0],imageNames[1],WindowNames[0],PicNames[0])
+Stitching(imageNames[1],imageNames[0],WindowNames[1],PicNames[0])
 
 
 
-
-Stitching(imageNames[0],imageNames[1],WindowNames[0],PicNames[3])
-Stitching(imageNames[1],imageNames[0],WindowNames[1],PicNames[3])
-# Stitching(imageNames[0],imageNames[1],WindowNames[0],PicNames[0])
-# Stitching(imageNames[1],imageNames[0],WindowNames[0],PicNames[0])
-# Stitching(imageNames[1],imageNames[0],WindowNames[1])
 
 #imageNames=["Book.jpg","Book2.jpg","Book3.jpg"]
 #Stitching(imageNames[0],imageNames[2],WindowNames[0],PicNames[1])
