@@ -23,7 +23,7 @@ def trim(frame):
     return frame
 
 
-def Stitching(image1Name,image2Name,WindowName,Path):
+def Stitching(image1Name,image2Name,WindowName):
     try:
         if not os.path.exists(WindowName):
             os.makedirs(WindowName)
@@ -92,7 +92,7 @@ def Stitching(image1Name,image2Name,WindowName,Path):
     # cv2.imshow(WindowName+temp[1], trim(dst))
     # cv2.imshow(WindowName+temp[1],trim(dst))
     # cv2.waitKey(30)
-    cv2.imwrite(Path,WindowName+temp[1]+'.jpg',trim(dst),None)
+    cv2.imwrite(WindowName+temp[1]+'.jpg',trim(dst),None)
     # cv2.waitKey(2000)
     trim(dst)
 
@@ -211,7 +211,8 @@ def main():
     # convert_video_to_frames(filename[17], pathIn[17], suffix)
     # convert_video_to_frames(filename[18], pathIn[18], suffix)
     # convert_video_to_frames(filename[19], pathIn[19], suffix)
-
+    #imagenames['test1.jpg','example.jpg']
+    #Stitching(imagenames[0],imagenames[1],'windowname',)
 
     images2stitch=[]
     images2stitchalso=[]
